@@ -160,7 +160,7 @@
 
             <!-- Barra de Progreso -->
             <div class="w-full bg-slate-100 dark:bg-slate-800 rounded-full h-3 overflow-hidden">
-                <div id="diskBar" class="bg-gradient-to-r from-blue-500 to-indigo-600 h-3 rounded-full transition-all duration-500" style="width: {{ $data['disk']['used_pct'] }}%"></div>
+                <div id="diskBar" class="h-3 rounded-full transition-all duration-500" style="width: {{ $data['disk']['used_pct'] }}%; background: linear-gradient(to right, #3b82f6, #6366f1);"></div>
             </div>
 
             <div class="flex justify-between items-center text-xs text-slate-400 mt-3 font-medium">
